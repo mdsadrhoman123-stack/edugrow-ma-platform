@@ -1,3 +1,8 @@
+<div align="center">
+  <img src="assets/banner.svg" width="100%" alt="🤝 Edugrow.sg — M&A Deal-Flow Automation Platform — banner"/>
+</div>
+
+
 # 🤝 Edugrow.sg — M&A Deal-Flow Automation Platform
 > M&A deal-flow platform for a Singapore advisory firm — six workflows, one state-machine, 100% audit logging.
 
