@@ -15,6 +15,12 @@
 <!-- Interactive Architecture Diagram -->
 [View Interactive Architecture Diagram](https://raw.githubusercontent.com/mdsadrhoman123-stack/edugrow-ma-platform/main/assets/diagrams/ma-interactive.html)
 
+<!-- Portfolio Navigation -->
+<script src="https://raw.githubusercontent.com/mdsadrhoman123-stack/edugrow-ma-platform/main/assets/navigation/navigation.js"></script>
+<script>
+autoInjectNavigation('edugrow-ma-platform');
+</script>
+
 ---
 
 ## Contents
