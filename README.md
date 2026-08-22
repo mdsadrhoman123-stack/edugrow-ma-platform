@@ -129,35 +129,35 @@ flowchart LR
 ### BEFORE (Manual Process - High Risk)
 ```
 [New Deal Intake] 
-    ↓ (manual spreadsheet entry)
+    â†“ (manual spreadsheet entry)
 [Email Documents Back & Forth] 
-    ↓ (version control chaos)
+    â†“ (version control chaos)
 [Manual NDA Process] 
-    ↓ (DocuSign manual sends)
+    â†“ (DocuSign manual sends)
 [Deal Stage Tracking] 
-    ↓ (spreadsheet updates)
+    â†“ (spreadsheet updates)
 [Follow-up Reminders] 
-    ↓ (human-dependent)
+    â†“ (human-dependent)
 [Audit Trail?] 
-    ↓
-= **High risk of missed deadlines, compliance issues, lost deals** ❌
+    â†“
+= **High risk of missed deadlines, compliance issues, lost deals** âŒ
 ```
 
 ### AFTER (Automated - Risk-Free)
 ```
 [New Deal Intake] 
-    ↓ (automated state-machine entry)
+    â†“ (automated state-machine entry)
 [Centralized Document Management] 
-    ↓ (version-controlled system)
+    â†“ (version-controlled system)
 [Automated NDA Processing] 
-    ↓ (DocuSign API integration)
+    â†“ (DocuSign API integration)
 [Enforced Deal Stages] 
-    ↓ (state-machine validation)
+    â†“ (state-machine validation)
 [Automated Follow-ups] 
-    ↓ (retry logic with backoff)
+    â†“ (retry logic with backoff)
 [100% Audit Logging] 
-    ↓
-= **Compliance-ready, reliable deal flow, zero dropped balls** ✅
+    â†“
+= **Compliance-ready, reliable deal flow, zero dropped balls** âœ…
 ```
 
 **The difference:** Your deals move forward reliably with full compliance protection.
@@ -168,7 +168,7 @@ flowchart LR
 
 **Business Value Delivered:**
 - **Zero compliance violations** through enforced state-machine
-- **5x faster** NDA processing (days → hours)
+- **5x faster** NDA processing (days â†’ hours)
 - **100% audit trail** for every deal action
 - **Guaranteed follow-ups** with automated retry logic
 
@@ -264,14 +264,14 @@ A: This is a production system built for a Singapore M&A advisory firm. Contact 
 
 **K MD SAYAD RAHMAN** - Sayad.dev | AI Automation
 
-**📧 Work Email:** khandokarsayad@gmail.com  
-**📧 Personal Email:** mdsadrhoman123@gmail.com  
-**💼 LinkedIn:** https://linkedin.com/in/khandokarsabbir  
-**🐙 GitHub:** https://github.com/mdsadrhoman123-stack
+**ðŸ“§ Work Email:** khandokarsayad@gmail.com  
+**ðŸ“§ Personal Email:** mdsadrhoman123@gmail.com  
+**ðŸ’¼ LinkedIn:** https://linkedin.com/in/khandokarsabbir  
+**ðŸ™ GitHub:** https://github.com/mdsadrhoman123-stack
 
-**🚀 Open to Work - Accepting New Automation Projects**
+**ðŸš€ Open to Work - Accepting New Automation Projects**
 
-**📩 Email me with your automation challenge - I'll tell you exactly 
+**ðŸ“© Email me with your automation challenge - I'll tell you exactly 
 which part I'd automate first, and which part I wouldn't.**
 
 ---
@@ -289,7 +289,7 @@ which part I'd automate first, and which part I wouldn't.**
 
 **Built by K MD SAYAD RAHMAN (Sayad.dev | AI Automation)**
 
-**📧 Contact:** khandokarsayad@gmail.com | mdsadrhoman123@gmail.com
+**ðŸ“§ Contact:** khandokarsayad@gmail.com | mdsadrhoman123@gmail.com
 
 Copyright (c) 2024 K MD SAYAD RAHMAN. All rights reserved. Portfolio use only.
 
