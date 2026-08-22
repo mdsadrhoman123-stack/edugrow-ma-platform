@@ -1,12 +1,5 @@
 # M&A Advisory Firms: Never Drop a Ball in Deal Flow Again
 
-![Status](https://img.shields.io/badge/status-Delivered_to_Client-success) 
-![License](https://img.shields.io/badge/license-Portfolio_Use_Only-red) 
-![Industry](https://img.shields.io/badge/Industry-M_A_Advisory-blue)
-![n8n Automation](https://img.shields.io/badge/n8n-Automation_EA4B71)
-![Compliance](https://img.shields.io/badge/Compliance-100_Audit_Logged-green)
-![Validate](https://img.shields.io/badge/CI-Validating-brightgreen)
-
 **Client:** Edugrow.sg (Singapore M&A Advisory) | **Industry:** M&A Advisory | **Delivered by:** K MD SAYAD RAHMAN (Sayad.dev | AI Automation)
 
 <!-- Professional Banner -->
@@ -14,40 +7,6 @@
 
 <!-- Interactive Architecture Diagram -->
 [View Interactive Architecture Diagram](https://raw.githubusercontent.com/mdsadrhoman123-stack/edugrow-ma-platform/main/assets/diagrams/ma-interactive.html)
-
----
-
-## Automation Portfolio by K MD SAYAD RAHMAN
-
-Explore my AI automation systems across different industries
-
-### Real Estate AI Automation
-[distressed-property-detection](https://github.com/mdsadrhoman123-stack/distressed-property-detection) - Property deal detection
-
-### Solar CRM Automation
-[irish-solar-crm](https://github.com/mdsadrhoman123-stack/irish-solar-crm) - Field service business systems
-
-### Healthcare Document Automation
-[medical-document-automation](https://github.com/mdsadrhoman123-stack/medical-document-automation) - Medical records processing
-
-### E-commerce Review Automation
-[review-outreach-pipeline](https://github.com/mdsadrhoman123-stack/review-outreach-pipeline) - Customer review generation
-
-### Enterprise Intake Automation
-[flowdesk](https://github.com/mdsadrhoman123-stack/flowdesk) - Enterprise intake systems
-
-### Payment Reconciliation Automation
-[paybridge](https://github.com/mdsadrhoman123-stack/paybridge) - Finance automation
-
-### Review Management Automation
-[reviewshield-ai](https://github.com/mdsadrhoman123-stack/reviewshield-ai) - Reputation management
-
-### Executive Report Automation
-[-impact-report-dashboard](https://github.com/mdsadrhoman123-stack/-impact-report-dashboard) - Executive reporting
-
----
-**Contact:** khandokarsayad@gmail.com | mdsadrhoman123@gmail.com  
-**LinkedIn:** [linkedin.com/in/khandokarsabbir](https://linkedin.com/in/khandokarsabbir)
 
 ---
 
@@ -169,35 +128,35 @@ flowchart LR
 ### BEFORE (Manual Process - High Risk)
 ```
 [New Deal Intake] 
-    â†“ (manual spreadsheet entry)
+    ↓ (manual spreadsheet entry)
 [Email Documents Back & Forth] 
-    â†“ (version control chaos)
+    ↓ (version control chaos)
 [Manual NDA Process] 
-    â†“ (DocuSign manual sends)
+    ↓ (DocuSign manual sends)
 [Deal Stage Tracking] 
-    â†“ (spreadsheet updates)
+    ↓ (spreadsheet updates)
 [Follow-up Reminders] 
-    â†“ (human-dependent)
+    ↓ (human-dependent)
 [Audit Trail?] 
-    â†“
-= **High risk of missed deadlines, compliance issues, lost deals** âŒ
+    ↓
+= **High risk of missed deadlines, compliance issues, lost deals** ❌
 ```
 
 ### AFTER (Automated - Risk-Free)
 ```
 [New Deal Intake] 
-    â†“ (automated state-machine entry)
+    ↓ (automated state-machine entry)
 [Centralized Document Management] 
-    â†“ (version-controlled system)
+    ↓ (version-controlled system)
 [Automated NDA Processing] 
-    â†“ (DocuSign API integration)
+    ↓ (DocuSign API integration)
 [Enforced Deal Stages] 
-    â†“ (state-machine validation)
+    ↓ (state-machine validation)
 [Automated Follow-ups] 
-    â†“ (retry logic with backoff)
+    ↓ (retry logic with backoff)
 [100% Audit Logging] 
-    â†“
-= **Compliance-ready, reliable deal flow, zero dropped balls** âœ…
+    ↓
+= **Compliance-ready, reliable deal flow, zero dropped balls** ✅
 ```
 
 **The difference:** Your deals move forward reliably with full compliance protection.
@@ -208,7 +167,7 @@ flowchart LR
 
 **Business Value Delivered:**
 - **Zero compliance violations** through enforced state-machine
-- **5x faster** NDA processing (days â†’ hours)
+- **5x faster** NDA processing (days → hours)
 - **100% audit trail** for every deal action
 - **Guaranteed follow-ups** with automated retry logic
 
