@@ -1,4 +1,4 @@
-# ðŸ“Š M&A Advisory Firms: Never Drop a Ball in Deal Flow Again
+# M&A Advisory Firms: Never Drop a Ball in Deal Flow Again
 
 ![Status](https://img.shields.io/badge/status-Delivered_to_Client-success) 
 ![License](https://img.shields.io/badge/license-Portfolio_Use_Only-red) 
@@ -6,11 +6,11 @@
 ![n8n Automation](https://img.shields.io/badge/n8n-Automation_EA4B71)
 ![Compliance](https://img.shields.io/badge/Compliance-100_Audit_Logged-green)
 
-**Client:** Edugrow.sg (Singapore M&A Advisory) Â· **Industry:** M&A Advisory Â· **Delivered by:** K MD SAYAD RAHMAN (Sayad.dev | AI Automation)
+**Client:** Edugrow.sg (Singapore M&A Advisory) | **Industry:** M&A Advisory | **Delivered by:** K MD SAYAD RAHMAN (Sayad.dev | AI Automation)
 
 ---
 
-## ðŸŽ¯ The Problem (In Your Words)
+## The Problem (In Your Words)
 
 **"A missed document or delayed response can kill a deal. Manual tracking via spreadsheets and email is too risky for M&A."**
 
@@ -26,7 +26,7 @@ Sound familiar? Here's what's happening:
 
 ---
 
-## âš¡ The Result (What You'll Achieve)
+## The Result (What You'll Achieve)
 
 | Metric | Before | After | Improvement |
 |--------|--------|-------|-------------|
@@ -38,7 +38,7 @@ Sound familiar? Here's what's happening:
 
 ---
 
-## ðŸ”„ Before vs After: The Workflow Difference
+## Before vs After: The Workflow Difference
 
 ### BEFORE (Manual Process - High Risk)
 ```
@@ -78,16 +78,16 @@ Sound familiar? Here's what's happening:
 
 ---
 
-## ðŸ—ï¸ How It Works (Conceptual Overview)
+## How It Works (Conceptual Overview)
 
 ```mermaid
 flowchart LR
-    A["ðŸ“‹ Deal Intake<br/>Automated entry"]
-    B["ðŸ” AI Qualification<br/>Deal scoring"]
-    C["ðŸ¤ NDA Automation<br/>DocuSign integration"]
-    D["ðŸ‘¥ Buyer Matching<br/>Portal access"]
-    E["ðŸ“Š Stage-Gated DD<br/>Enforced progression"]
-    F["ðŸ“ 100% Audit Log<br/>Compliance tracking"]
+    A["Deal Intake<br/>Automated entry"]
+    B["AI Qualification<br/>Deal scoring"]
+    C["NDA Automation<br/>DocuSign integration"]
+    D["Buyer Matching<br/>Portal access"]
+    E["Stage-Gated DD<br/>Enforced progression"]
+    F["100% Audit Log<br/>Compliance tracking"]
     
     A --> B
     B --> C
@@ -110,54 +110,54 @@ flowchart LR
 
 ---
 
-## âœ¨ Key Features (What You Get)
+## Key Features (What You Get)
 
 | Feature | Benefit | Impact |
 |---------|---------|--------|
-| **ðŸ”„ State-Machine Enforcement** | Deals progress through mandatory stages | Zero compliance violations |
-| **ðŸ“ 100% Audit Logging** | Every action recorded and timestamped | Full compliance protection |
-| **ðŸ¤ Automated NDA Processing** | DocuSign integration with retry logic | 5x faster document handling |
-| **ðŸ‘¥ Buyer Portal MVP** | Centralized document access and tracking | Better client experience |
-| **ðŸ” AI Deal Qualification** | Intelligent scoring and buyer matching | Better deal quality |
-| **ðŸ“Š Stage-Gated Due Diligence** | Enforced progression through DD stages | Thorough deal evaluation |
-| **ðŸ”” Multi-Channel Alerting** | Email + Telegram notifications | Never miss critical updates |
+| **State-Machine Enforcement** | Deals progress through mandatory stages | Zero compliance violations |
+| **100% Audit Logging** | Every action recorded and timestamped | Full compliance protection |
+| **Automated NDA Processing** | DocuSign integration with retry logic | 5x faster document handling |
+| **Buyer Portal MVP** | Centralized document access and tracking | Better client experience |
+| **AI Deal Qualification** | Intelligent scoring and buyer matching | Better deal quality |
+| **Stage-Gated Due Diligence** | Enforced progression through DD stages | Thorough deal evaluation |
+| **Multi-Channel Alerting** | Email + Telegram notifications | Never miss critical updates |
 
 ---
 
-## ðŸŽ¬ See It In Action
+## See It In Action
 
 ### Live Dashboard Preview (Demo with Dummy Data)
 
 ```
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚  ðŸ“Š M&A DEAL-FLOW AUTOMATION PLATFORM - LIVE DASHBOARD     â”‚
-â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤
-â”‚                                                              â”‚
-â”‚  ðŸ“‹ ACTIVE DEALS: 7                                         â”‚
-â”‚  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”  â”‚
-â”‚  â”‚ TechCorp Acquisition â”‚ Stage: Due Diligence â”‚ Score: 85/100 â”‚  â”‚
-â”‚  â”‚ NDA: Signed âœ“ â”‚ Documents: 12/15 â”‚ Next: Financial Review â”‚  â”‚
-â”‚  â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜  â”‚
-â”‚                                                              â”‚
-â”‚  ðŸ“Š TODAY'S PERFORMANCE:                                     â”‚
-â”‚  â€¢ NDAs Processed: 3                                        â”‚
-â”‚  â€¢ Deal Stage Advancements: 2                               â”‚
-â”‚  â€¢ Audit Log Entries: 47                                    â”‚
-â”‚  â€¢ Compliance Score: 100%                                   â”‚
-â”‚                                                              â”‚
-â”‚  ðŸ”” RECENT ALERTS:                                          â”‚
-â”‚  â€¢ TechCorp: Financial documents uploaded                   â”‚
-â”‚  â€¢ HealthCo: Buyer portal access requested                  â”‚
-â”‚  â€¢ RetailInc: Stage 2 compliance complete                   â”‚
-â”‚                                                              â”‚
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
++-------------------------------------------------------------+
+|  M&A DEAL-FLOW AUTOMATION PLATFORM - LIVE DASHBOARD     |
++-------------------------------------------------------------+
+|                                                             |
+|  ACTIVE DEALS: 7                                         |
+|  +-------------------------------------------------------+ |
+|  | TechCorp Acquisition | Stage: Due Diligence | 85/100 | |
+|  | NDA: Signed | Documents: 12/15 | Financial Review | |
+|  +-------------------------------------------------------+ |
+|                                                             |
+|  TODAY'S PERFORMANCE:                                     |
+|  â€¢ NDAs Processed: 3                                      |
+|  â€¢ Deal Stage Advancements: 2                            |
+|  â€¢ Audit Log Entries: 47                                 |
+|  â€¢ Compliance Score: 100%                                |
+|                                                             |
+|  RECENT ALERTS:                                          |
+|  â€¢ TechCorp: Financial documents uploaded                |
+|  â€¢ HealthCo: Buyer portal access requested               |
+|  â€¢ RetailInc: Stage 2 compliance complete                |
+|                                                             |
++-------------------------------------------------------------+
 ```
 
 *(Note: Real client data removed for confidentiality. Demo shows system capabilities.)*
 
 ---
 
-## ðŸ› ï¸ Automation Technology Stack
+## Automation Technology Stack
 
 **Core Engine:** n8n Workflow Automation  
 **Database:** PostgreSQL with audit logging  
@@ -168,13 +168,13 @@ flowchart LR
 
 ---
 
-## ðŸ§  Engineering Philosophy
+## Engineering Philosophy
 
-**"Automations Fail Silently â€” I Engineer Systems That Don't"**
+**"Automations Fail Silently - I Engineer Systems That Don't"**
 
 This system includes:
 - **Explicit Error Handling:** No silent failures, every error triggers an alarm
-- **Retry Logic with Backoff:** 5Ã— retry with exponential backoff for reliability
+- **Retry Logic with Backoff:** 5x retry with exponential backoff for reliability
 - **Audit Trails:** Every action logged for M&A compliance requirements
 - **Human-in-the-Loop:** Critical decisions require human approval
 - **State-Machine Validation:** Deals cannot skip mandatory compliance stages
@@ -182,7 +182,7 @@ This system includes:
 
 ---
 
-## ðŸš€ What's Next (Roadmap)
+## What's Next (Roadmap)
 
 - [ ] **v2.0:** Advanced AI deal matching algorithms
 - [ ] **Mobile App:** Deal tracking on the go
@@ -192,7 +192,7 @@ This system includes:
 
 ---
 
-## ðŸ”’ What I'm Not Publishing
+## What I'm Not Publishing
 
 For client confidentiality and IP protection, I've deliberately omitted:
 
@@ -207,28 +207,28 @@ For client confidentiality and IP protection, I've deliberately omitted:
 
 ---
 
-## ðŸ“ž Hire Me For Similar Projects
+## Hire Me For Similar Projects
 
-**K MD SAYAD RAHMAN** â€” Sayad.dev | AI Automation
+**K MD SAYAD RAHMAN** - Sayad.dev | AI Automation
 
-**ðŸ“§ Work Email:** khandokarsayad@gmail.com  
-**ðŸ“§ Personal Email:** mdsadrhoman123@gmail.com  
-**ðŸ’¼ LinkedIn:** https://linkedin.com/in/khandokarsabbir  
-**ðŸ™ GitHub:** https://github.com/mdsadrhoman123-stack
+**Work Email:** khandokarsayad@gmail.com  
+**Personal Email:** mdsadrhoman123@gmail.com  
+**LinkedIn:** https://linkedin.com/in/khandokarsabbir  
+**GitHub:** https://github.com/mdsadrhoman123-stack
 
-**ðŸš€ Open to Work â€” Accepting New Automation Projects**
+**Open to Work - Accepting New Automation Projects**
 
-**ðŸ“© Email me with your automation challenge â€” I'll tell you exactly 
+**Email me with your automation challenge - I'll tell you exactly 
 which part I'd automate first, and which part I wouldn't.**
 
 ---
 
-## ðŸ”„ See My Other Automation Systems
+## See My Other Automation Systems
 
-- [ðŸ  Real Estate AI Automation](../distressed-property-detection) - Property deal detection
-- [ðŸ¥ Healthcare Document Automation](../medical-document-automation) - Medical records processing
-- [â˜€ï¸ Solar CRM Automation](../irish-solar-crm) - Field service business systems  
-- [ðŸ“Š E-commerce Review Automation](../review-outreach-pipeline) - Customer review generation
+- [Real Estate AI Automation](../distressed-property-detection) - Property deal detection
+- [Healthcare Document Automation](../medical-document-automation) - Medical records processing
+- [Solar CRM Automation](../irish-solar-crm) - Field service business systems  
+- [E-commerce Review Automation](../review-outreach-pipeline) - Customer review generation
 
 ---
 
@@ -236,10 +236,10 @@ which part I'd automate first, and which part I wouldn't.**
 
 **Built by K MD SAYAD RAHMAN (Sayad.dev | AI Automation)**
 
-**ðŸ“§ Contact:** khandokarsayad@gmail.com | mdsadrhoman123@gmail.com
+**Contact:** khandokarsayad@gmail.com | mdsadrhoman123@gmail.com
 
 Copyright (c) 2024 K MD SAYAD RAHMAN. All rights reserved. Portfolio use only.
 
-*[n8n](https://n8n.io) Â· [M&A Automation](https://linkedin.com/in/khandokarsabbir) Â· [Compliance Systems](https://github.com/mdsadrhoman123-stack)*
+*[n8n](https://n8n.io) | [M&A Automation](https://linkedin.com/in/khandokarsabbir) | [Compliance Systems](https://github.com/mdsadrhoman123-stack)*
 
 </div>
