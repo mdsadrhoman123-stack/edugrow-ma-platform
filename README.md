@@ -9,6 +9,12 @@
 
 **Client:** Edugrow.sg (Singapore M&A Advisory) | **Industry:** M&A Advisory | **Delivered by:** K MD SAYAD RAHMAN (Sayad.dev | AI Automation)
 
+<!-- Professional Banner -->
+<img src="assets/banners/ma-banner.svg" alt="M&A Deal-Flow Automation" width="1200" style="border-radius: 10px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+
+<!-- Interactive Architecture Diagram -->
+[ðŸ”— View Interactive Architecture Diagram](assets/diagrams/ma-interactive.html)
+
 ---
 
 ## Contents
