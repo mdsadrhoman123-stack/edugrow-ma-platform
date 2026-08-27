@@ -1,6 +1,6 @@
 # 01 · The problem
 
-**M&A Deal-Flow Platform** — Boutique M&A advisory firm
+**M&A Deal-Flow Platform** — the problem, as Boutique M&A advisory firms describe it
 
 ---
 
@@ -22,4 +22,4 @@ A versioned PostgreSQL schema with state-machine enforcement, full audit logging
 
 ---
 
-[← README](../README.md) · [02 · The client journey →](02-journey.md)
+[← README](../README.md) · [02 · The journey →](02-journey.md)

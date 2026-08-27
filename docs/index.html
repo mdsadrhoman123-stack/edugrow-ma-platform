@@ -29,6 +29,12 @@ header.hero{background:var(--ink);color:#F5F4EF;padding:76px 0 68px;
 header.hero h1{font-size:clamp(38px,6vw,64px);line-height:1.03;margin:0 0 20px}
 header.hero p.promise{font-size:19px;line-height:1.55;color:#C6CFDB;
   max-width:60ch;margin:0 0 30px}
+/* The demo is a single file — someone may well open it with no README in
+   sight, so the provenance has to travel with it. */
+header.hero p.prov{font-size:14px;line-height:1.62;color:#8A94A3;
+  max-width:66ch;margin:24px 0 0;border-left:2px solid #2E3542;
+  padding-left:14px}
+header.hero p.prov b{color:#C6CFDB}
 .meta{display:flex;flex-wrap:wrap;gap:10px}
 .pill{font-size:12px;letter-spacing:.4px;padding:6px 12px;border-radius:999px;
   border:1px solid #2E3542;color:#A9B3C1}
@@ -135,10 +141,15 @@ a{color:var(--green)}
     <h1>M&amp;A Deal-Flow Platform</h1>
     <p class="promise">A deal cannot advance without the required fields logged, a signature request cannot fail silently, and every state change is auditable after the fact.</p>
     <div class="meta">
-      <span class="pill ok">delivered to client</span>
+      <span class="pill ok">running on my own n8n</span>
       <span class="pill">M&amp;A advisory</span>
-      <span class="pill">Built for Boutique M&amp;A advisory firm</span>
+      <span class="pill">For Boutique M&amp;A advisory firms</span>
+      <span class="pill">Ready to deploy</span>
     </div>
+    <p class="prov">Built from a real brief — businesses in this sector post
+    this problem publicly, in their own words, and I built a system for the
+    problem exactly as stated. It is production-grade and runs on my own infrastructure.
+    <b>It has not been sold or deployed into a customer's business: it is available, not delivered.</b></p>
   </div>
 </header>
 
@@ -219,7 +230,7 @@ a{color:var(--green)}
 </footer>
 
 <script>
-var DATA = {"nodes": [{"id": "in", "label": "A deal is entered", "kind": "trigger"}, {"id": "gate", "label": "Is everything required present?", "kind": "logic"}, {"id": "blk", "label": "No → blocked, not merely warned", "kind": "fail"}, {"id": "sig", "label": "Agreement goes out", "kind": "step"}, {"id": "ok", "label": "Signed → the deal advances", "kind": "success"}, {"id": "lost", "label": "Send failed → nothing lost, two people told", "kind": "fail"}], "edges": [{"a": "in", "b": "gate"}, {"a": "gate", "b": "blk"}, {"a": "gate", "b": "sig"}, {"a": "sig", "b": "ok"}, {"a": "sig", "b": "lost"}], "fails": [{"what": "Required field missing", "detect": "State-machine guard", "does": "Deal cannot advance — blocked, not warned", "who": "Blocked state is visible and logged"}, {"what": "Signature send fails", "detect": "API error", "does": "Retried up to five times with exponential backoff", "who": "Alert only if all five fail"}, {"what": "All retries exhausted", "detect": "Retry count", "does": "Written to a dead-letter table, never dropped", "who": "Dual alert: Telegram and email"}, {"what": "Same action submitted twice", "detect": "Idempotency guarantee", "does": "Second submission does not re-run the step", "who": "Nobody — by design"}, {"what": "Tracing a problem after the fact", "detect": "Correlation ID threaded through every step", "does": "The whole path for one deal can be reconstructed", "who": "Whoever asks"}, {"what": "One alert channel is down", "detect": "Dual delivery", "does": "The other channel still lands", "who": "The human still finds out"}], "journey": [{"h": "A deal is entered", "b": "Intake writes to a versioned schema, not a spreadsheet."}, {"h": "The state machine decides", "b": "A deal cannot move to the next stage without its required fields. Blocked, not warned — that distinction is the product."}, {"h": "The NDA goes out", "b": "And if the send fails it is retried five times with exponential backoff, not assumed successful."}, {"h": "Failure has somewhere to go", "b": "After five attempts the item lands in a dead-letter table and two alert channels fire. Nothing evaporates."}, {"h": "Everything is traceable", "b": "A correlation ID runs through every step, so one deal's whole path can be reconstructed months later."}, {"h": "Re-running is safe", "b": "Idempotency guarantees mean nothing runs twice."}], "name": "M&A Deal-Flow Platform", "eyebrow": "NDA & deal flow, state-machine enforced", "promise": "A deal cannot advance without the required fields logged, a signature request cannot fail silently, and every state change is auditable after the fact.", "client": "Boutique M&A advisory firm", "status": "delivered to client", "metrics": [["Workflows", "6"], ["Retry attempts", "5, exponential backoff"], ["Alert channels", "2"], ["Schema version", "v2"], ["Actions audit-logged", "every one"]]};
+var DATA = {"nodes": [{"id": "in", "label": "A deal is entered", "kind": "trigger"}, {"id": "gate", "label": "Is everything required present?", "kind": "logic"}, {"id": "blk", "label": "No → blocked, not merely warned", "kind": "fail"}, {"id": "sig", "label": "Agreement goes out", "kind": "step"}, {"id": "ok", "label": "Signed → the deal advances", "kind": "success"}, {"id": "lost", "label": "Send failed → nothing lost, two people told", "kind": "fail"}], "edges": [{"a": "in", "b": "gate"}, {"a": "gate", "b": "blk"}, {"a": "gate", "b": "sig"}, {"a": "sig", "b": "ok"}, {"a": "sig", "b": "lost"}], "fails": [{"what": "Required field missing", "detect": "State-machine guard", "does": "Deal cannot advance — blocked, not warned", "who": "Blocked state is visible and logged"}, {"what": "Signature send fails", "detect": "API error", "does": "Retried up to five times with exponential backoff", "who": "Alert only if all five fail"}, {"what": "All retries exhausted", "detect": "Retry count", "does": "Written to a dead-letter table, never dropped", "who": "Dual alert: Telegram and email"}, {"what": "Same action submitted twice", "detect": "Idempotency guarantee", "does": "Second submission does not re-run the step", "who": "Nobody — by design"}, {"what": "Tracing a problem after the fact", "detect": "Correlation ID threaded through every step", "does": "The whole path for one deal can be reconstructed", "who": "Whoever asks"}, {"what": "One alert channel is down", "detect": "Dual delivery", "does": "The other channel still lands", "who": "The human still finds out"}], "journey": [{"h": "A deal is entered", "b": "Intake writes to a versioned schema, not a spreadsheet."}, {"h": "The state machine decides", "b": "A deal cannot move to the next stage without its required fields. Blocked, not warned — that distinction is the product."}, {"h": "The NDA goes out", "b": "And if the send fails it is retried five times with exponential backoff, not assumed successful."}, {"h": "Failure has somewhere to go", "b": "After five attempts the item lands in a dead-letter table and two alert channels fire. Nothing evaporates."}, {"h": "Everything is traceable", "b": "A correlation ID runs through every step, so one deal's whole path can be reconstructed months later."}, {"h": "Re-running is safe", "b": "Idempotency guarantees mean nothing runs twice."}], "name": "M&A Deal-Flow Platform", "eyebrow": "NDA & deal flow, state-machine enforced", "promise": "A deal cannot advance without the required fields logged, a signature request cannot fail silently, and every state change is auditable after the fact.", "audience": "Boutique M&A advisory firms", "status": "running on my own n8n", "metrics": [["Workflows", "6"], ["Retry attempts", "5, exponential backoff"], ["Alert channels", "2"], ["Schema version", "v2"], ["Actions audit-logged", "every one"]]};
 
 var flow = document.getElementById('flow');
 DATA.nodes.forEach(function(n, i){
